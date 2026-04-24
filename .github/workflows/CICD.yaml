@@ -142,7 +142,7 @@ jobs:
 
       - name: Determine Deployment Environments
         id: DetermineDeploymentEnvironments
-        uses: microsoft/AL-Go-Actions/DetermineDeploymentEnvironments@main
+        uses: microsoft/AL-Go-Actions/DetermineDeploymentEnvironments@v9.0
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
