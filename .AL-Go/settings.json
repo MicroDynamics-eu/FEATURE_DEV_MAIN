@@ -3,5 +3,14 @@
   "country": "us",
   "appFolders": [],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "environments": ["DEV", "PRD"],
+  "DeployToQA": {
+    "EnvironmentName": "DEV",
+    "ContinuousDeployment": true
+  },
+  "DeployToPROD": {
+    "EnvironmentName": "PRD",
+    "ContinuousDeployment": false
+  }
 }
