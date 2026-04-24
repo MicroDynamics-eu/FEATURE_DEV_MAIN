@@ -116,7 +116,7 @@ jobs:
 
       - name: Determine Delivery Target Secrets
         id: DetermineDeliveryTargetSecrets
-        uses: microsoft/AL-Go-Actions/DetermineDeliveryTargets@v9.0
+        uses: microsoft/AL-Go-Actions/DetermineDeliveryTargets@main
         with:
           shell: powershell
           projectsJson: '${{ steps.determineProjectsToBuild.outputs.ProjectsJson }}'
