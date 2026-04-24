@@ -4,13 +4,21 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
-  "environments": ["DEV", "PRD"],
+  "environments": [
+    "DEV",
+    "PRD",
+    "FAT"
+  ],
   "DeployToDEV": {
     "EnvironmentName": "DEV",
     "ContinuousDeployment": true
   },
   "DeployToPRD": {
     "EnvironmentName": "PRD",
+    "ContinuousDeployment": false
+  },
+  "DeployToFAT": {
+    "EnvironmentName": "FAT",
     "ContinuousDeployment": false
   }
 }
