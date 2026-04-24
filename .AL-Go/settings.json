@@ -5,11 +5,11 @@
   "testFolders": [],
   "bcptTestFolders": [],
   "environments": ["DEV", "PRD"],
-  "DeployToQA": {
+  "DeployToDEV": {
     "EnvironmentName": "DEV",
     "ContinuousDeployment": true
   },
-  "DeployToPROD": {
+  "DeployToPRD": {
     "EnvironmentName": "PRD",
     "ContinuousDeployment": false
   }
