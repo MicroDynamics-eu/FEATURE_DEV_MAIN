@@ -9,6 +9,10 @@ on:
       - '!.github/workflows/CICD.yaml'
     branches: [ 'main', 'release/*', 'dev' ]
 
+concurrency:
+  group: dev-deploy
+  cancel-in-progress: true
+
 defaults:
   run:
     shell: powershell
