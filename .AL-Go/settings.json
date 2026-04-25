@@ -20,5 +20,6 @@
   "DeployToFAT": {
     "EnvironmentName": "FAT",
     "ContinuousDeployment": false
-  }
+  },
+  "repoVersion": "2.0"
 }
