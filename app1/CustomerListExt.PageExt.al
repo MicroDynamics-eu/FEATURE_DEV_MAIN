@@ -6,6 +6,6 @@ pageextension 50000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('Feature local_dev: TBR');
+        Message('Big solved: b1');
     end;
 }
