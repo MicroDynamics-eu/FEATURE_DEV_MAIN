@@ -1,4 +1,4 @@
-codeunit 50001 FT_FUNCTIONAL
+codeunit 50402 FT_FUNCTIONAL
 {
     Subtype = Test;
 
