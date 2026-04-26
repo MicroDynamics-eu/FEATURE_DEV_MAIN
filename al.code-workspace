@@ -1,8 +1,11 @@
 {
-    "folders": [
-        {
-            "path": "app1"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "path": "app1"
+    },
+    {
+      "path": "MyTest1.Test"
+    }
+  ],
+  "settings": {}
 }
