@@ -11,6 +11,26 @@
                     "FT_*"
                  ]
             }
+        },
+      {
+            "branches": [
+                "release/*"
+            ],
+            "settings": {
+                 "runTests": true,
+                 "testCodeunits": [
+                    "FT_*",
+                    "E2E_*"
+                 ]
+            }
+        },
+      {
+            "branches": [
+                "main"
+            ],
+            "settings": {
+                 "runTests": false
+            }
         }
     ]
 }
