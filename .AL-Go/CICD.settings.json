@@ -1,0 +1,16 @@
+{
+    "ConditionalSettings": [
+        {
+            "branches": [
+                "dev"
+            ],
+            "settings": {
+                 "runTests": true,
+                 "testCodeunits": [
+                    "UT_*",
+                    "FT_*"
+                 ]
+            }
+        }
+    ]
+}
