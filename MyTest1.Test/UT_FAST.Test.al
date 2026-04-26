@@ -1,4 +1,4 @@
-codeunit 50001 UT_FAST
+codeunit 50401 UT_FAST
 {
     Subtype = Test;
 
