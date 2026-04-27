@@ -4,5 +4,6 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "DeployToDEV": {
     "continuousDeployment": true
-  }
+  },
+  "testCodeunitRange": "80000..80999"
 }
