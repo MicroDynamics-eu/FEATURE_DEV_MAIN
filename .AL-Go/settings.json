@@ -21,6 +21,5 @@
     "EnvironmentName": "FAT",
     "ContinuousDeployment": false
   },
-  "repoVersion": "2.0",
-  "testCodeunits": "80000..80999"
+  "repoVersion": "2.0"
 }
