@@ -4,5 +4,6 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "DeployToDEV": {
     "continuousDeployment": true
-  }
+  },
+  "doNotRunBcptTest": true
 }
