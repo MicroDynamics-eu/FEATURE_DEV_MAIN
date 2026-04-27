@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.0/.Modules/settings.schema.json",
   "country": "us",
   "appFolders": [
-    "./app1"
+    "app1"
   ],
   "testFolders": [
-    "./app1.Test"
+    "app1.Test"
   ],
   "testCodeunits": "80000..80999",
   "bcptTestFolders": [
