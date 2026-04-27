@@ -8,7 +8,6 @@
     "./app1.Test"
   ],
   "testCodeunits": "80000..80999",
-  
   "bcptTestFolders": [],
   "environments": [
     "DEV",
