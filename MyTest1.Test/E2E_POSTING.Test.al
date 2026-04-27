@@ -1,4 +1,4 @@
-codeunit 50403 E2E_POSTING
+codeunit 82000 E2E_POSTING
 {
     Subtype = Test;
 
