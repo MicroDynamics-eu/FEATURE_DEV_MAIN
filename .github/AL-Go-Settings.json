@@ -5,5 +5,5 @@
   "DeployToDEV": {
     "continuousDeployment": true
   },
-  "testCodeunitRange": "80000..80999"
+  "testCodeunits": "80000..80999"
 }

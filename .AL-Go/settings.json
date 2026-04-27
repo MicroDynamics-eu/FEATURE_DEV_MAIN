@@ -22,5 +22,5 @@
     "ContinuousDeployment": false
   },
   "repoVersion": "2.0",
-  "testCodeunitRange": "80000..80999"
+  "testCodeunits": "80000..80999"
 }
