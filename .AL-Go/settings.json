@@ -22,39 +22,5 @@
     "ContinuousDeployment": false
   },
   "repoVersion": "2.0",
-      "ConditionalSettings": [
-        {
-            "branches": [
-                "dev"
-            ],
-            "settings": {
-                 "runTests": true,
-                 "testCodeunits": [
-                    "UT_*",
-                    "FT_*"
-                 ],
-                 "testCodeunitRange": "50401..50401"
-            }
-        },
-      {
-            "branches": [
-                "release/*"
-            ],
-            "settings": {
-                 "runTests": true,
-                 "testCodeunits": [
-                    "FT_*",
-                    "E2E_*"
-                 ]
-            }
-        },
-      {
-            "branches": [
-                "main"
-            ],
-            "settings": {
-                 "runTests": false
-            }
-        }
-    ]
+  "testCodeunitRange": "80000..80999"
 }
