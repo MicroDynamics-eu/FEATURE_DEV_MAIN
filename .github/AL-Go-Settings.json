@@ -5,5 +5,19 @@
   "DeployToDEV": {
     "continuousDeployment": true
   },
-  "doNotRunBcptTest": true
+  "appFolders": [
+    "app1"
+  ],
+  "testFolders": [
+    "app1.Test"
+  ],
+  "testCodeunits": "80000..80999",
+  "configPackages": [
+          "STANDARD"
+  ],
+  "bcptTestFolders": [
+    "app1.PerformanceTest"
+  ],
+  "doNotRunTest": false,
+  "doNotRunBcptTest": false
 }

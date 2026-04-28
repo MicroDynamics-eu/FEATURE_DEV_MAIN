@@ -8,6 +8,9 @@
     "app1.Test"
   ],
   "testCodeunits": "80000..80999",
+  "configPackages": [
+          "STANDARD"
+  ],
   "bcptTestFolders": [
     "app1.PerformanceTest"
   ],
