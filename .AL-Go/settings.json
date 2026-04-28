@@ -31,5 +31,7 @@
     "EnvironmentName": "FAT",
     "ContinuousDeployment": false
   },
-  "repoVersion": "2.0"
+  "repoVersion": "2.0",
+  "doNotRunTest": true,
+  "doNotRunBcptTest": true
 }

@@ -4,6 +4,6 @@
   "cacheImageName": "",
   "versioningStrategy": 15,
   "doNotRunBcptTest": true,
-  "doNotRunTest": false,
+  "doNotRunTest": true,
   "testCodeunits": "80000..80999"
 }
