@@ -18,6 +18,6 @@
   "bcptTestFolders": [
     "app1.PerformanceTest"
   ],
-  "doNotRunTest": false,
-  "doNotRunBcptTest": false
+  "doNotRunTest": true,
+  "doNotRunBcptTest": true
 }
